@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #5ce0f4;
+    padding: 20px;
+    border-bottom: 2px solid #333333;
+    font-size: 2rem;
+    font-weight: 300;
+    height: 40px;
+    max-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: #f4d1f3;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+.topBar{
+    background-color: #96bbbb;
+    width: 80vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #333333;
+    border-left: 2px solid #333333;
+    border-right: 2px solid #333333;
+}
+.topBar2{
+        background-color: #7dd3c4;
+        width: 117%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #333333;
+        border-left: 2px solid #333333;
+        border-right: 2px solid #333333;
+        margin-bottom: 20px;
+}
+.topBar2 img{
+    height: 30px;
+}
+.topBar P{
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.topBar img{
+    height: 34px;
+}
+
+.workImg{
+    width: 80px;
+    border: 2px solid #333333;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+}
+.titleTop{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+}
+.textVersion{
+    margin-bottom: 20px;
+}
+.packImg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#headerName a{
+    transition: border-bottom 0.1s;
+}
+
+#headerName a:hover{
+    border-bottom: 1px solid #333333;
+}
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+#containerWork{
+    background-color: #FBEEF0;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+#awake{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333333;
+}
+#awake img{
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#awake p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#canceledPresentation{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#noTomorrow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#noTomorrow img{
+    width: 120px;
+    height: 80px;
+}
+#noTomorrowHorror{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#noTomorrowHorror img{
+    width: 120px;
+    height: 80px;
+}
+#noTomorrowHorror p{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+#aboutMeOne{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#aboutMeOne img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+}
+
+#aboutMeTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 230px;
+    border: 2px solid #333333;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FAE0AF;
+}
+
+
+#instaClone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 80%;
+    border-bottom: 2px solid black;
+}
+
+#instaClone h3{
+    width: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+#instaClone img{
+    height: 320px;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    
+    .workImg{
+        width: 220px;
+    }
+    #awake{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    #awake img{
+        width: 320px;
+    }
+    
+    #noTomorrow{
+        flex-wrap: nowrap;
+    }
+    #noTomorrow img{
+        width: 320px;
+        height: 180px;
+    }
+    
+    #noTomorrowHorror{
+        flex-wrap: nowrap;
+    }
+    #noTomorrowHorror img{
+        width: 320px;
+        height: 180px;
+    }
+    
+    #aboutMeOne{
+        flex-wrap: nowrap;
+    }
+    #instaClone{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    }
